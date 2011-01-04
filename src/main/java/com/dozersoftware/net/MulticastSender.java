@@ -64,7 +64,7 @@ public class MulticastSender {
 		
 		oMsg.Update();
 		oMsg.Set_ShipLat(34.0);
-		
+	    oMsg.Set_ShipHdgRate(8);	
 		
 		oMsg.ToBuffer(ret);
 		
